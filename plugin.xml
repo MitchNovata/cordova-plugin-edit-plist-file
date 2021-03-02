@@ -39,7 +39,16 @@
           <true />
         </config-file>
         
+        <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
+          <true />
+        </config-file>
         
+        <edit-config target="NSCameraUsageDescription" file="*-Info.plist" mode="merge">
+            <string>We access your camera to take pictures for attaching evidence for a request</string>
+        </edit-config>
+        <edit-config target="NSPhotoLibraryUsageDescription" file="*-Info.plist" mode="merge">
+            <string>We access your photo library to get pictures for attaching evidence for a request</string>
+        </edit-config>       
         
     </platform>
     
