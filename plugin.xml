@@ -43,12 +43,12 @@
           <true />
         </config-file>
         
-        <edit-config target="NSCameraUsageDescription" file="*-Info.plist" mode="overwrite">
+        <config-file target="NSCameraUsageDescription" file="*-Info.plist">
             <string>We access your camera to take pictures for attaching evidence for a request</string>
-        </edit-config>
-        <edit-config target="NSPhotoLibraryUsageDescription" file="*-Info.plist" mode="overwrite">
+        </config-file>
+        <config-file target="NSPhotoLibraryUsageDescription" file="*-Info.plist">
             <string>We access your photo library to get pictures for attaching evidence for a request</string>
-        </edit-config>       
+        </config-file>       
         
     </platform>
     
