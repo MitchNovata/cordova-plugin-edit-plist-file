@@ -40,13 +40,9 @@
         </config-file>
         
         <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
-          <true />
-        </config-file>
-        
-        <config-file target="NSCameraUsageDescription" file="*-Info.plist">
             <string>We access your camera to take pictures for attaching evidence for a request</string>
         </config-file>
-        <config-file target="NSPhotoLibraryUsageDescription" file="*-Info.plist">
+        <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
             <string>We access your photo library to get pictures for attaching evidence for a request</string>
         </config-file>       
         
