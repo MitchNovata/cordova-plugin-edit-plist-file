@@ -40,11 +40,17 @@
         </config-file>
         
         <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
-            <string>We access your camera to take pictures for attaching evidence for a request</string>
+            <string>We access your camera to scan QR codes for Maintenance requests</string>
         </config-file>
         <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
             <string>We access your photo library to get pictures for attaching evidence for a request</string>
-        </config-file>       
+        </config-file>
+        <config-file target="*-Info.plist" parent="NSLocationAlwaysUsageDescription">
+            <string>We access your location to allow emergency responders to locate you when requesting an emergency</string>
+        </config-file> 
+        <config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
+            <string>We access your location to allow emergency responders to locate you when requesting an emergency</string>
+        </config-file>  
         
     </platform>
     
